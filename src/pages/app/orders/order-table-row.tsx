@@ -4,7 +4,7 @@ import { ArrowRight, Search, X } from "lucide-react";
 
 export function OrderTableRow() {
     return (
-        <TableRow key={i}>
+        <TableRow>
             <TableCell>
                 <Button variant="outline" size="xs">
                     <Search className="h-3 w-3" />
